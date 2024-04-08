@@ -1,0 +1,101 @@
+.stockViewer {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.stockTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.stockTable th,
+.stockTable td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.stockTable th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
+
+.pagination {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.pagination button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  background-color: rgb(58, 56, 56);
+  border-radius: 1rem;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.pagination button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+#date1{
+  background-color:  #a881af;
+}
+#open1{
+  background-color: #80669d;
+}
+#close1{
+  background-color:  #a881af;
+}
+#dropdown1{
+  background-color: #a881af;
+  cursor: pointer;
+  color: black;
+  border-radius: 4rem;
+}
+#dropdown2{
+  background-color: #a881af;
+  color: black;
+  cursor: pointer;
+  border-radius: 3rem;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+#dropdown-content1 {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+#dropdown2:hover {
+  background-color: #80669d;
+  color: #ccc;
+}
+#dropdown1:hover {
+  background-color: #80669d;
+  color: #ccc;
+}
